@@ -36,7 +36,7 @@ As a compromise, we focus more on the *magnitude* similarity. That is, two diffe
 
 ```Python
 # https://github.com/Evolutionary-Intelligence/pypop/blob/main/optimizers/nes/test_r1nes.py
-best_so_far_y: 95855.51
+best_so_far_y: 1.2296e5
 ```
 
 Luckily, we observe the similar results (Note that Ellipsoid is ill-conditioned)! 
