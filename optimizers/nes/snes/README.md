@@ -36,8 +36,8 @@ As a compromise, we focus more on the *magnitude* similarity. That is, two diffe
 
 ```Python
 # https://github.com/Evolutionary-Intelligence/pypop/blob/main/optimizers/nes/test_snes.py
-best_so_far_y: 9.9659e-11
-n_function_evaluations: 658989
+best_so_far_y: 9.9072e-11
+n_function_evaluations: 658587
 ```
 
 Luckily, we observe the almostly same results!
