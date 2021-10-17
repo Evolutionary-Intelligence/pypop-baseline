@@ -18,7 +18,7 @@ The official Matlab/Octave version, written by one of the original authors (H.G.
 
 ### Repeatability
 
-For making comparisons, we need to slightly modify the code, as represented in the same folder.
+For making comparisons, we need to slightly modify the code, as presented in the same folder.
 
 The following result is obtained on the **Ellipsoid** benchmark function:
 
