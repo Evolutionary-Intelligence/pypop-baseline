@@ -1,0 +1,14 @@
+dim = 1000;
+lambda = 4 + floor(3 * log(dim));
+mu = lambda / 2;
+goal_f_name = @Elli;
+y_init = 4 * ones(dim, 1);
+sigma_init = 0.1;
+stepsize_stop = 0;
+f_stop = 1e-10;
+g_stop = inf;
+opt = 'min';
+maxFuncEval = 431232;
+[y_opt,f_dyn,sigma_dyn]=MAES(mu,lambda,goal_f_name,y_init,sigma_init,stepsize_stop,f_stop,g_stop,opt,maxFuncEval);
+disp(goal_f_name(y_opt));
+disp(length(f_dyn));
