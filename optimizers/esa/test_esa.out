@@ -1,0 +1,51 @@
+******* rosenbrock *******
+  * Evaluations 2: best_so_far_y 1.43936e+07
+  * Evaluations 3: best_so_far_y 1.43936e+07
+  * Evaluations 4: best_so_far_y 1.43894e+07
+  * Evaluations 5: best_so_far_y 1.43807e+07
+  * Evaluations 6: best_so_far_y 1.43807e+07
+  * Evaluations 7: best_so_far_y 1.43807e+07
+  * Evaluations 8: best_so_far_y 1.43807e+07
+  * Evaluations 9: best_so_far_y 1.43807e+07
+  * Evaluations 10: best_so_far_y 1.43807e+07
+
+  ...
+
+  * Evaluations 399990: best_so_far_y 3.78624e+02
+  * Evaluations 399991: best_so_far_y 3.78624e+02
+  * Evaluations 399992: best_so_far_y 3.78624e+02
+  * Evaluations 399993: best_so_far_y 3.78624e+02
+  * Evaluations 399994: best_so_far_y 3.78624e+02
+  * Evaluations 399995: best_so_far_y 3.78624e+02
+  * Evaluations 399996: best_so_far_y 3.78624e+02
+  * Evaluations 399997: best_so_far_y 3.78624e+02
+  * Evaluations 399998: best_so_far_y 3.78624e+02
+  * Evaluations 399999: best_so_far_y 3.78624e+02
+  * Evaluations 400000: best_so_far_y 3.78624e+02
+{'best_so_far_x': array([1.04127095, 1.01017872, 0.98514951, 0.99034483, 1.00107306,
+       ...,
+       1.06887999, 1.18342663, 1.36590377, 1.84590471, 3.36477156]),
+ 'best_so_far_y': 378.6236457292933,
+ 'n_function_evaluations': 400000,
+ 'runtime': 37.75848388671875,
+ 'termination_signal': <Terminations.MAX_FUNCTION_EVALUATIONS: 1>,
+ 'time_function_evaluations': 25.156923055648804,
+ 'fitness': array([[0.00000000e+00, 1.43945910e+07],
+       [5.00000000e+04, 6.65254069e+03],
+       [1.00000000e+05, 3.23184865e+03],
+       [1.50000000e+05, 1.86149596e+03],
+       [2.00000000e+05, 1.34724438e+03],
+       [2.50000000e+05, 9.41356694e+02],
+       [3.00000000e+05, 6.84921182e+02],
+       [3.50000000e+05, 5.27512577e+02],
+       [3.99999000e+05, 3.78623646e+02]]),
+'n_T_adjustments': 0, 'v': array([0.5  , 0.25 , 0.25 , 0.125, 0.5  , 0.5  , 0.25 , 0.5  , 0.25 ,
+       ...,
+       0.25 , 0.25 , 0.25 , 0.25 , 0.25 , 0.5  , 0.5  , 0.25 , 0.5  ,
+       1.   ])}.
+----------------------------------------------------------------------
+Ran 1 test in 37.777s
+
+OK
+
+*** Runtime: 3.77764e+01
