@@ -1,0 +1,16 @@
+tic();
+ndim_problem = 1000;
+lambda = 4 + floor(3 * log(ndim_problem));
+mu = lambda / 2;
+goal_f_name = @Ellipsoid;
+y_init = 4 * ones(ndim_problem, 1);
+sigma_init = 0.1;
+stepsize_stop = 0;
+f_stop = 1e-10;
+g_stop = inf;
+opt = 'min';
+max_function_evaluations = 431232;
+[y_opt,f_dyn,sigma_dyn]=MAES(mu,lambda,goal_f_name,y_init,sigma_init,stepsize_stop,f_stop,g_stop,opt,max_function_evaluations);
+disp(goal_f_name(y_opt));
+disp(length(f_dyn));
+disp(toc());

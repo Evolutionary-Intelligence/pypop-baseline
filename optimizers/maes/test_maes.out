@@ -1,0 +1,35 @@
+******* ellipsoid *******
+  * Generation 2000: best_so_far_y 6.47190e+06, min(y) 6.66146e+06 & Evaluations 48000
+  * Generation 4000: best_so_far_y 1.83655e+06, min(y) 1.84454e+06 & Evaluations 96000
+  * Generation 6000: best_so_far_y 9.33359e+05, min(y) 9.35046e+05 & Evaluations 144000
+  * Generation 8000: best_so_far_y 5.95130e+05, min(y) 5.95199e+05 & Evaluations 192000
+  * Generation 10000: best_so_far_y 4.04697e+05, min(y) 4.04697e+05 & Evaluations 240000
+  * Generation 12000: best_so_far_y 2.88302e+05, min(y) 2.88629e+05 & Evaluations 288000
+  * Generation 14000: best_so_far_y 2.17102e+05, min(y) 2.17110e+05 & Evaluations 336000
+  * Generation 16000: best_so_far_y 1.74248e+05, min(y) 1.74389e+05 & Evaluations 384000
+{'best_so_far_x': array([ 4.14041581e+00,  1.16271565e+01,  2.79066656e+00,  3.67089305e+00,
+        ...,
+        1.19203837e-03,  8.67031829e-04, -2.05310086e-03,  2.29947022e-03]),
+ 'best_so_far_y': 144356.7312454159,
+ 'n_function_evaluations': 431232,
+ 'runtime': 1847.5740084648132,
+ 'termination_signal': <Terminations.MAX_FUNCTION_EVALUATIONS: 1>,
+ 'time_function_evaluations': 84.53185391426086,
+ 'fitness': array([[0.00000000e+00, 1.16228870e+09],
+       [2.00000000e+05, 5.57271048e+05],
+       [4.00000000e+05, 1.63319744e+05],
+       [4.31231000e+05, 1.44356731e+05]]),
+ 'mu': array([ 4.14333779e+00,  1.16279416e+01,  2.78578732e+00,  3.67758340e+00,
+       ...,
+       -1.17685806e-03, -1.58653619e-03,  4.20382654e-04,  3.32121108e-03]),
+ 'sigma': 0.0032786334821708965,
+ 'n_generations': 17967,
+ 's': array([ 4.24885366e-02, -1.11017443e+00, -1.87180446e+00,  1.45565594e+00,
+       ...,
+       -2.14303771e-01, -2.29518129e-01, -4.26404470e-02,  2.86365653e-01])}.
+----------------------------------------------------------------------
+Ran 1 test in 1847.606s
+
+OK
+
+*** Runtime: 1.84761e+03
